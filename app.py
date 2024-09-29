@@ -3,6 +3,8 @@ import pytesseract
 from PIL import Image
 import re
 
+pytesseract.pytesseract.tesseract_cmd = "/usr/bin/tesseract"
+
 # Function to search for a keyword in the text
 def searchWord(text, keyword):
     pattern = re.compile(re.escape(keyword), re.IGNORECASE)

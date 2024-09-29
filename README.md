@@ -13,6 +13,15 @@ activate the virtual env
 source ./ocr_env/bin/activate
 ```
 
+## install tesseract in your system
+```
+sudo apt update
+```
+
+```
+sudo apt install tesseract-ocr
+```
+
 ## install python packages
 ```
 pip3 install -r requirements.txt
